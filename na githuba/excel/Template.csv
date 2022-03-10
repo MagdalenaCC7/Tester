@@ -1,0 +1,15 @@
+Test case ID, Scenario, Test case Title, Preconditions, Reproduction steps, Test data, Expected result, Actual result (if fail), Pass/Fail, Environment, Comments;;;;;;;;;;
+TC1_01;1_Registration;New user registration;"1) Go to the site www.medbook.com.pl
+2) User does not exist in the medbook.com.pl database";"1) Click on the ""Zarejestruj siê"" button
+2) Fill in the mandatory fields with required data
+3) Accept the terms of service by checking the box   
+4) Click on ""Rejestruj"" button                                                                                                                                        ";"1) Imiê: Magda
+2) Nazwisko: Test                             
+3) Ulica: Test                                  
+4) Nr domu/mieszkania: 1/1         
+5) Miejscowoœæ: Gdañsk               
+6) Kod pocztowy: 80-175                
+7) Kraj: Polska                                 
+8) Telefon: 693213783                   
+9) Email: jidod91642@bepureme.com     
+10) Password: Test01!                               ";New user can register using the registration form. A message about created account is displayed. The confirmation e-mail has been sent to the user. ;;Pass;Windows 8.1       Google Chrome browser version 97.0.4692.71  ;
